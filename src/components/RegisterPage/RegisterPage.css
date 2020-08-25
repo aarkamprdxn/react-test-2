@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.register {
+    height: 100vh;
+    width: 100%;
+    background-color: #f6ecd8;
+    text-align: center;
+}
+
+.help-block {
+    color: red;
+}

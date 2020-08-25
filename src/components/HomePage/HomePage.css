@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6ecd8;
+    text-align: center;
+    line-height: 1.7;
+}
+
+h1 {
+    font-size: 40px;
+    color: maroon;
+}
+
+h1 span {
+    color: goldenrod;
+}
+
+p {
+    font-size: 32px;
+    color: black;
+}
+
+.btn {
+    padding: 8px 15px;
+    border: 1.5px solid black;
+    background-color: #f6ecd8;
+    color:black;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: black;
+    color: #f6ecd8;
+    border: 1.5px solid #f6ecd8;
+}
