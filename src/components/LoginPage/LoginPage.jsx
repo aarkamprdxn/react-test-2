@@ -48,14 +48,14 @@ class LoginPage extends React.Component {
                         <label className="username">Username</label>
                         <input type="text" name="username" placeholder="Enter your username" value={username} onChange={this.handleChange} />
                         {submitted && !username &&
-                            <div>Username is required</div>
+                            <div className="error">Username is required</div>
                         }
                     </div>
                     <div className={'form-group' + (submitted && !password ? ' has-error' : '')}>
                         <label className="password">Password</label>
                         <input type="password" name="password" placeholder="Enter your password" value={password} onChange={this.handleChange} />
                         {submitted && !password &&
-                            <div>Password is required</div>
+                            <div className="error">Password is required</div>
                         }
                     </div>
                     <div>
